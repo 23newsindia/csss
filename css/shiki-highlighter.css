@@ -1,0 +1,40 @@
+/* Reset any existing pre styles for shiki blocks */
+pre.shiki {
+    background-color: #1E1E1E !important;
+    padding: 1em !important;
+    border-radius: 0.5rem !important;
+    margin: 1rem 0 !important;
+    border: none !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+    font-family: Consolas, Monaco, 'Courier New', monospace !important;
+    font-size: 0.9em !important;
+    line-height: 1.5 !important;
+    overflow-x: auto !important;
+    white-space: pre !important;
+}
+
+/* Override any conflicting styles */
+pre.shiki * {
+    background: none !important;
+}
+
+/* Code block styling */
+pre.shiki code {
+    font-family: inherit !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+    color: #D4D4D4 !important;
+}
+
+/* Syntax colors */
+.shiki .keyword { color: #569CD6 !important; }
+.shiki .string { color: #CE9178 !important; }
+.shiki .comment { color: #6A9955 !important; }
+.shiki .function { color: #DCDCAA !important; }
+.shiki .variable { color: #9CDCFE !important; }
+.shiki .number { color: #B5CEA8 !important; }
+.shiki .operator { color: #D4D4D4 !important; }
+.shiki .class-name { color: #4EC9B0 !important; }
+.shiki .parameter { color: #9CDCFE !important; }
+.shiki .property { color: #9CDCFE !important; }
+.shiki .punctuation { color: #D4D4D4 !important; }
